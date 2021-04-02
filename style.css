@@ -1,6 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Frijole&family=Satisfy&display=swap');
 :root {
-   --color-primary: yellow;
+   --color-primary: #feca57;
 }
+
+body{
+    font-family: 'Satisfy', cursive;
+    background-image: url("wp2885694-background-minion.jpg");
+    background-size: cover;
+    
+    
+}
+
+
+
 textarea{
     display: block;
     width: 80%;
@@ -9,17 +21,32 @@ textarea{
 }
 
 #btnTranslate{
-    margin: 1rem auto;
+    margin: 2rem auto;
     display: block;
     background-color: var(--color-primary);
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    font-size: 1.5rem;
 }
 
 .header{
-    background-color: var(--color-primary);
+    
     text-align: center;
+    padding: 2rem;
+    font-family: 'Frijole', cursive;
+    font-size: 3rem;
 }
 
 p{
     text-align: center;
+    font-size: 2rem;
+}
+
+.footer{
+    margin: auto;
+    text-align: right;
+    
+    padding: 2rem;
+    margin-top: 2rem;
+    opacity: 0.8;
 }
